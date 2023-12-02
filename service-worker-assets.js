@@ -321,7 +321,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-HKrGIGeAuBJnbc4AMRudWh0fohFOfVhYXZNiNlraJtg=",
+      "hash": "sha256-xn5Xv5kRiuoIIo3v0OqBX8\/gDHJvN227e5O9ZLmHMY0=",
       "url": "index.html"
     },
     {
@@ -331,7 +331,11 @@
     {
       "hash": "sha256-paIeuWnSzjeLGITWkk4p3rcejUsZWCJGPeOK9UhWXtg=",
       "url": "sample-data\/weather.json"
+    },
+    {
+      "hash": "sha256-39KmqBoIrMUs6cSDI9Wihw8AEtaUaDsBcwNDjWYCh10=",
+      "url": "tts.js"
     }
   ],
-  "version": "\/0Cyh+UK"
+  "version": "KUCPJ1vv"
 };
