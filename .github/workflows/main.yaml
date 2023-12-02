@@ -21,6 +21,8 @@ jobs:
 
     - name: Publish .NET Core Project
       run: dotnet publish TimeToSound/TimeToSound.csproj -c Release -o release --nologo
+      env:
+        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
 
     - name: Change base-tag in index.html from / to TimeToSound
       run: sed -i 's/<base href="\/" \/>/<base href="\/TimeToSound\/" \/>/g' release/wwwroot/index.html
@@ -37,5 +39,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: release/wwwroot
-        ENVIRONMENT_VARIABLES: BOT_TOKEN=${{ secrets.BOT_TOKEN }}
         
