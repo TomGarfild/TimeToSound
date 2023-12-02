@@ -48,7 +48,7 @@
       "System.Private.Uri.dll": "sha256-8clEE3yirnUFxwcO1T7+RLmWf80jRWMbyZM0PAUwDCk=",
       "System.Private.Xml.dll": "sha256-tl\/futiLSjHVZXSbKKM7V9QGafC2fej7YSYMr4jVhDQ=",
       "System.Private.Xml.Linq.dll": "sha256-V9RZhnmpl299OyX4baFsvIy3IcuRVyYBY98WhHIxvSI=",
-      "System.Runtime.dll": "sha256-9v63DlVXuEAITRgKySnlk8aHdQWMZiOF9Jp+a+N85OM=",
+      "System.Runtime.dll": "sha256-v\/RnQAj4UsYd9iBrGUxQZMCtZJzsGr4ruDTACRNFy+Q=",
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-MC8P5BswE5sDJgKgKCNyNj44Z4mbH\/uyPUvKUaV\/xwo=",
       "System.Runtime.Numerics.dll": "sha256-vMlXwRWTrN093BHBcx6JVcj0ChXk4NuZLuT33fXut1A=",
       "System.Runtime.Serialization.Formatters.dll": "sha256-Fpf3wJ046VZvHPLhWNqRvaWPjRCJLMs\/42UYgZqucug=",
@@ -61,7 +61,7 @@
       "System.Threading.dll": "sha256-k5\/N2JXi7aXd\/RGuHC8U6q27ZQ6pNkNST8fosFcrBok=",
       "System.Xml.Linq.dll": "sha256-gZUHJx6n6\/BsI06El7STicgfVb9mzCZBbvI8BkNSuOM=",
       "Telegram.Bot.dll": "sha256-dKeuuKSLPm7Hm9ZDBiALxEz1NAc+CqpkHEbwZMkKxE4=",
-      "TimeToSound.dll": "sha256-qsusjnkkUmr43K5egOSXz\/LS3jnEIrmYfOtlfVsKrpY="
+      "TimeToSound.dll": "sha256-Oce0DWXdRFoBlmZLJK4RfPIqpkslNLPIK+1\/ILXQWp0="
     },
     "extensions": null,
     "lazyAssembly": null,
