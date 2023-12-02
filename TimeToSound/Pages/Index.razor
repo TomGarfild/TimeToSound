@@ -11,7 +11,7 @@
 <h1>Speaker</h1>
 
 @code {
-    private readonly TelegramBotClient _botClient = new("");
+    private readonly TelegramBotClient _botClient = new(Environment.GetEnvironmentVariable("BOT_TOKEN"));
 
     protected override async Task OnInitializedAsync()
     {

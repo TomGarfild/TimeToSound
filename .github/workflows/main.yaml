@@ -1,5 +1,8 @@
 name: Deploy to GitHub Pages
 
+env:
+  BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+
 on:
   push:
     branches: [ main ]
