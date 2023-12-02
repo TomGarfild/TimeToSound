@@ -33,7 +33,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-2bTY6HOGCdW4fJCi+bgzMNb0E+tmBDOLBCpuEUhN5\/k=",
+      "hash": "sha256-gB7oKPzQmzsEDluDomHaBpWCXM1NFscenisaHiX49qk=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -137,10 +137,6 @@
       "url": "_framework\/System.ComponentModel.TypeConverter.dll"
     },
     {
-      "hash": "sha256-3+kOl+5hvRnf0biTNHL2hIUgC3e+\/BJGFKzXkwd5gHI=",
-      "url": "_framework\/System.Console.dll"
-    },
-    {
       "hash": "sha256-onNvp9W6YM5pzAOmmjASkfcRkE9rzzzApg19sQCqDBM=",
       "url": "_framework\/System.Data.Common.dll"
     },
@@ -185,7 +181,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-6lgCLNZdXrySF0YzWFB818xMADjrlp8Cs7FbEX9UExA=",
+      "hash": "sha256-RetKw0AUu3iZdWjRaYzZlSiBes9jMhitZh1apxGGC\/I=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -253,7 +249,7 @@
       "url": "_framework\/Telegram.Bot.dll"
     },
     {
-      "hash": "sha256-Oce0DWXdRFoBlmZLJK4RfPIqpkslNLPIK+1\/ILXQWp0=",
+      "hash": "sha256-XBXYTbCFdOLsHy69W\/u+kC3ovZ8\/QqdUBQOCcgopjUw=",
       "url": "_framework\/TimeToSound.dll"
     },
     {
@@ -337,5 +333,5 @@
       "url": "tts.js"
     }
   ],
-  "version": "KUCPJ1vv"
+  "version": "OmAyBNl3"
 };
