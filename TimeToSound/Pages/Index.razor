@@ -1,9 +1,48 @@
-﻿@page "/"
+﻿@inject IJSRuntime JSRuntime
 
-<PageTitle>Index</PageTitle>
+@page "/"
 
-<h1>Hello, world!</h1>
+@using Telegram.Bot
+@using Telegram.Bot.Exceptions
+@using Telegram.Bot.Types
 
-Welcome to your new app.
+<PageTitle>Speaker</PageTitle>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<h1>Speaker</h1>
+
+@code {
+    private readonly TelegramBotClient _botClient = new("");
+
+    protected override async Task OnInitializedAsync()
+    {
+        _botClient.StartReceiving(
+            updateHandler: HandleUpdateAsync,
+            pollingErrorHandler: HandlePollingErrorAsync
+            );
+    }
+
+
+    async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
+    {
+        if (update.Message is not { } message)
+            return;
+        if (message.Text is not { } messageText)
+            return;
+
+
+        await JSRuntime.InvokeVoidAsync("speakText", messageText);
+    }
+
+    Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
+    {
+        var ErrorMessage = exception switch
+        {
+            ApiRequestException apiRequestException
+                => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}",
+            _ => exception.ToString()
+        };
+
+        Console.WriteLine(ErrorMessage);
+        return Task.CompletedTask;
+    }
+}
