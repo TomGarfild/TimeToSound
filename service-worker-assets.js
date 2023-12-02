@@ -33,7 +33,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-E5fwOT0rguMjeIlSAoybkflbpTt18Fr19I0Og8bGcn0=",
+      "hash": "sha256-rvvE8jfGFpXuwvjvat\/yyqigvbO5H9wmsME9tIJaj+s=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -253,7 +253,7 @@
       "url": "_framework\/Telegram.Bot.dll"
     },
     {
-      "hash": "sha256-edeVkCqULWiCKslPinmUnkwveIq\/wxoDH9IuOh45o7U=",
+      "hash": "sha256-qsusjnkkUmr43K5egOSXz\/LS3jnEIrmYfOtlfVsKrpY=",
       "url": "_framework\/TimeToSound.dll"
     },
     {
@@ -333,5 +333,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "6UHCGxju"
+  "version": "GdlQc1sz"
 };
