@@ -9,9 +9,11 @@
 <PageTitle>Speaker</PageTitle>
 
 <h1>Speaker</h1>
+<p>Value: @value</p>
 
 @code {
     private readonly TelegramBotClient _botClient = new("6860038173:AAH5JARyElpAKLdol7ia0Yc7qpah6d7e99I");
+    private string value = "";
 
     protected override async Task OnInitializedAsync()
     {
@@ -32,6 +34,7 @@
 
 
         await JSRuntime.InvokeVoidAsync("speakText", messageText);
+        value = messageText;
     }
 
     Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
@@ -42,8 +45,7 @@
                 => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}",
             _ => exception.ToString()
         };
-
-        Console.WriteLine(ErrorMessage);
+        value = ErrorMessage;
         return Task.CompletedTask;
     }
 }
