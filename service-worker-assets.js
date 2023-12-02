@@ -33,11 +33,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-3ww65S\/2OgU\/1X5wZJnzmvJXyar000zTXXapnXSj2vM=",
+      "hash": "sha256-E5fwOT0rguMjeIlSAoybkflbpTt18Fr19I0Og8bGcn0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-stvEjA3L\/76AfKkzpVVs5+Vxeqiu20E2DUhdONCTRsQ=",
+      "hash": "sha256-UqrxQ6Bd8k63s0HyJ9UrWvYqMtz9IMPoWhk1SvfF090=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
@@ -137,7 +137,7 @@
       "url": "_framework\/System.ComponentModel.TypeConverter.dll"
     },
     {
-      "hash": "sha256-YSuoWwcfIM1yR1PooGuBBo3gT4y+u7l7JHPP4BZqsSg=",
+      "hash": "sha256-3+kOl+5hvRnf0biTNHL2hIUgC3e+\/BJGFKzXkwd5gHI=",
       "url": "_framework\/System.Console.dll"
     },
     {
@@ -177,10 +177,6 @@
       "url": "_framework\/System.Net.Http.dll"
     },
     {
-      "hash": "sha256-geOqCQS1FVKTxpjzzvSJKO0C3grVXDgtrbtj7pdD18w=",
-      "url": "_framework\/System.Net.Http.Json.dll"
-    },
-    {
       "hash": "sha256-dJ\/1AooBxDrQrktYlFIeipM8yeIWf27nW8rwy1mM6Sc=",
       "url": "_framework\/System.Net.Primitives.dll"
     },
@@ -189,7 +185,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-hHp9A0TOl8\/T9Y6lgLQB4EXcXlmP6CG\/B448qgkFOOc=",
+      "hash": "sha256-6lgCLNZdXrySF0YzWFB818xMADjrlp8Cs7FbEX9UExA=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -205,7 +201,7 @@
       "url": "_framework\/System.Private.Xml.Linq.dll"
     },
     {
-      "hash": "sha256-Kw4MYZu71mPb8zAbZGYXL5YBxLHZXX6C3zLX\/XueKaU=",
+      "hash": "sha256-9v63DlVXuEAITRgKySnlk8aHdQWMZiOF9Jp+a+N85OM=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -233,7 +229,7 @@
       "url": "_framework\/System.Text.Encodings.Web.dll"
     },
     {
-      "hash": "sha256-1pWB1zpqUtBQWHS19qQpnaJcCFIHhZs7U+GIFbhfTTc=",
+      "hash": "sha256-1tjMjtHdHzh3CBeXZH2b17BaKh1PmJAP8e2J5GW+KbQ=",
       "url": "_framework\/System.Text.Json.dll"
     },
     {
@@ -257,7 +253,7 @@
       "url": "_framework\/Telegram.Bot.dll"
     },
     {
-      "hash": "sha256-EUrAgasOEHpq493W6JH7DP65ttb3Wbn0HRo8Sk5ZHnA=",
+      "hash": "sha256-edeVkCqULWiCKslPinmUnkwveIq\/wxoDH9IuOh45o7U=",
       "url": "_framework\/TimeToSound.dll"
     },
     {
@@ -337,5 +333,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "uHa8t6G7"
+  "version": "6UHCGxju"
 };
