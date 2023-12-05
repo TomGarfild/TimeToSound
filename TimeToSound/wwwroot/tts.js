@@ -3,9 +3,9 @@
 
     var voices = window.speechSynthesis.getVoices();
 
-    console.log(voices)
+    console.log(voices);
     var englishVoice = voices.find(voice => voice.lang.startsWith('en'));
-    
+    console.log(englishVoice);
     if (englishVoice) {
         msg.voice = englishVoice;
     }
