@@ -12,40 +12,19 @@
 <p>Value: @value</p>
 
 @code {
-    private readonly TelegramBotClient _botClient = new("6860038173:AAH5JARyElpAKLdol7ia0Yc7qpah6d7e99I");
     private string value = "";
+
+    private Task task;
 
     protected override async Task OnInitializedAsync()
     {
-        _botClient.StartReceiving(
-            updateHandler: HandleUpdateAsync,
-            pollingErrorHandler: HandlePollingErrorAsync
-            );
-
-    }
-
-
-    async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
-    {
-        if (update.Message is not { } message)
-            return;
-        if (message.Text is not { } messageText)
-            return;
-
-
-        await JSRuntime.InvokeVoidAsync("speakText", messageText);
-        value = messageText;
-    }
-
-    Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
-    {
-        var ErrorMessage = exception switch
+        task = Task.Run(async () =>
         {
-            ApiRequestException apiRequestException
-                => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}",
-            _ => exception.ToString()
-        };
-        value = ErrorMessage;
-        return Task.CompletedTask;
+            while (true)
+            {
+                await JSRuntime.InvokeVoidAsync("speakText", "20.2");
+                await Task.Delay(5000);
+            }
+        });
     }
 }
