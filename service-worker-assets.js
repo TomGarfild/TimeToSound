@@ -33,7 +33,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-gB7oKPzQmzsEDluDomHaBpWCXM1NFscenisaHiX49qk=",
+      "hash": "sha256-EJj3l444gUMVdtQF0aVOk+tKg90yGffv4CMCoeNYO6o=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -249,7 +249,7 @@
       "url": "_framework\/Telegram.Bot.dll"
     },
     {
-      "hash": "sha256-XBXYTbCFdOLsHy69W\/u+kC3ovZ8\/QqdUBQOCcgopjUw=",
+      "hash": "sha256-k+Uj0kgMD3CHS3Hi\/sbmL7gZXs6IkbGobKGfcmKmEvA=",
       "url": "_framework\/TimeToSound.dll"
     },
     {
@@ -333,5 +333,5 @@
       "url": "tts.js"
     }
   ],
-  "version": "OmAyBNl3"
+  "version": "2QSjnf\/G"
 };
