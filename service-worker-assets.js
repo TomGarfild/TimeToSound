@@ -329,9 +329,9 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-39KmqBoIrMUs6cSDI9Wihw8AEtaUaDsBcwNDjWYCh10=",
+      "hash": "sha256-gZ3mOgDs9WFF2A5BgwP7cUUuKUn84PrIz6yw4GGVOBI=",
       "url": "tts.js"
     }
   ],
-  "version": "2QSjnf\/G"
+  "version": "aDib8qid"
 };
